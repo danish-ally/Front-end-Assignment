@@ -1,0 +1,38 @@
+.userCard-container {
+  /* padding: 0.2rem; */
+  margin-bottom: 20px;
+}
+.userCard-container img {
+  width: 200px;
+  height: 200px;
+  background-color: #f5f5f5;
+}
+
+.userCard-container .ant-card-bordered .ant-card-cover {
+  display: flex;
+  justify-content: center;
+  background-color: #f5f5f5;
+}
+.userCard-container .ant-card-body {
+  text-align: left;
+}
+.userCard-container .email-container {
+  display: flex;
+}
+.userCard-container .email-container .emailIcon {
+  margin-right: 10px;
+}
+.userCard-container .phone-container {
+  display: flex;
+  margin-top: -9px;
+}
+.userCard-container .phone-container .phoneIcon {
+  margin-right: 10px;
+}
+.userCard-container .website-container {
+  display: flex;
+  margin-top: -9px;
+}
+.userCard-container .website-container .websiteIcon {
+  margin-right: 10px;
+}
