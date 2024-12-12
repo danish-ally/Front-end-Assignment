@@ -1,13 +1,44 @@
-*{
-  box-sizing: border-box;
-}
 .App {
-  position: relative;
-  height: auto;
-  margin-right: 0;
-  margin-top: 12px;
-  margin-left: 15px;
-  zoom: 1;
-  display: block;
-  box-sizing: border-box;
+  text-align: center;
+ 
+}
+
+.App-header {
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.pool-container {
+  margin-top: 20px;
+}
+
+.pool-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.question-block {
+  margin-bottom: 20px;
+}
+
+.options-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.option-button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.option-button:hover {
+  background-color: #45a049;
 }
